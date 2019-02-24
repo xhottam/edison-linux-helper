@@ -12,7 +12,7 @@ Presumably the Yocto tools add additional internal include paths not specified i
 Includes two kernel configurations:
 
 1.  [Kernel config](edison-default-kernel.config) from stock edison images
-2.  [Kernel config](edison-recommended-kernel.config) with many more options and modules, so Edison makes a useful headless server
+2.  [Kernel config](jublinux-kernel.config) tuned for jubilinux
 
 
 ## TL;DR
