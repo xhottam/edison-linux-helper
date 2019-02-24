@@ -18,10 +18,6 @@ function eh_kernel_src {
   echo -n "$(eh_repo_root)/edison-linux"
 }
 
-function eh_bcm43340_src {
-  echo -n "$(eh_repo_root)/edison-bcm43340"
-}
-
 function eh_collected_dir {
   echo -n "$(eh_repo_root)/collected/$(eh_kernel_release_version)"
 }
