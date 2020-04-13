@@ -20,15 +20,11 @@ Includes two kernel configurations:
 Configuring and building a kernel:
 
 ```bash
+sudo apt-get  build-essential install qt4-qmake libqt4-dev pkg-config bc
 git clone https://github.com/jubilinux/edison-linux-helper.git
 cd edison-linux-helper/
-make
-```
-
-Configuring the kernel:
-
-```bash
 make xconfig
+make
 ```
 
 
